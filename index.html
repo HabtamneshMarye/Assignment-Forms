@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+
+    <style>
+    
+        body{
+            width: 500px;
+            height: 600px;
+            padding: 40px;
+            border: 1px solid;
+            box-shadow: 5px 1px rgba(0,0,0, 0.3);
+            border-color: none;
+            margin: 100px  auto;
+            font-family: 'Random papi' , sans-serif;
+        }
+        
+        input{
+            width: 95%;
+            height: 50%;
+            margin: 0 auto;
+            padding: 10px;
+            font-family: 'Random papi' , sans-serif;
+        }
+        .submit_button{
+        background: none;
+        border: none;
+        border-radius: 5px;
+        border-width: 200px;
+        padding: 12px 8px;
+        background-color: black;
+        color: white;
+        cursor:pointer;
+        margin:10px 0;
+        width: 100%;
+        height: 50%;
+        }
+        .checkbox-container input {
+        margin-right: 5px;
+        }
+        .small-font {
+            font-size: 14px;
+        }
+        .signup-lines{
+        position:relative;
+        margin: 50px auto;
+        text-align: center;
+        }
+        .signup-lines:before{
+        content:" ";
+        display: block;
+        height: 2px;
+        width: 170px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        background: rgb(160, 159, 159);
+        }
+       .signup-lines:after{
+        content:" ";
+        display: block;
+        height: 2px;
+        width: 170px;
+        position: absolute;
+        top: 50%;
+        left:65%;
+        right: 9%;
+        background: rgb(160, 159, 159);
+        }
+        
+     img{
+        width:30px;
+        height:30px;
+        margin-top:0.5px;
+        
+
+     }
+    </style>
+
+</head>
+<body>   
+    <form  method="get">
+        Already have an account?<a href="Login.html" class="sign-in" style="color: black; text-decoration: none;"><b>Sign In</b></a>
+    <h1>Sign Up</h1>
+        <label for="name">Name:</label>
+        <br>
+        <br>
+        <input type="text" id="name" placeholder="Sadegh"/>
+        <br>
+        <br>
+        <label for="email">Email:</label>
+         <br>
+         <br>
+         <input type="email" id="email" placeholder="Sadeqsaadi2Gmail.Com"/>
+         <br>
+         <br>
+         <label for="password">Password</label>
+         <br>
+         <br>
+         <input type="Password" placeholder="XAxls566@" id="password"/>
+         <br>
+         <br>
+         <input style="width: 15px;  height: 15px;" type="checkbox" id="checkbox" name="remember">
+         <label for="checkbox" class="small-font">I've Read And Agree With <b>The Terms Of Service</b> And Our <b>Privacy Policy</b></label>
+        <br>
+        <br>
+        <button type="submit" id="submit_button" class="submit_button">Sign Up</button>
+        <br> 
+        <p class="signup-lines"> Or Sign Up With</p>
+        <br>
+    
+            <a href="https://www.google.com/" style="text-decoration: none; color:black;"> <img src="images/google-icon.webp" alt="Google Icon" style="margin-left:180px; margin-bottom: 10px;box-shadow:black;" /></a>
+            <a href="https://www.facebook.com/" style="text-decoration: none; color:black;"><img src="images/facebook-icon.png" style="margin-left:100px;margin-bottom: 10px; "></a>
+     
+    </form>
+
+    
+
+</body>
+</html>
